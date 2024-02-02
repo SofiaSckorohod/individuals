@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Georgia, serif; ;
+  }
+  .container {
+    /* border: 2px dashed orange; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  main{
+    padding: 50px;
+    
+    background-color:  rgba(122, 203, 41, 0.927);;
+  }
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+    
+  }
+#navbar li a{
+   text-decoration: none;
+   font-size: 27px;
+   color:#000;
+   transition: 0.5s;
+   font-weight: 400;
+}
+#navbar li a:hover{
+    color: #9e909056;
+}
+#navbar img{
+    margin-top:-20px ;
+    
+}
+.pamt,.pam, .history{
+    background-color: rgba(253, 245, 233, 0.954);
+}
+.pamt h1{
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.pamt h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+   color: rgba(20, 19, 19, 0.689);
+
+}
+.pamt p{
+    color:#100f0fca;
+    font-size: large;
+}
+.pamt .carta{
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.pam img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 500px;
+}
+.pam h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 10px;
+    color: rgba(20, 19, 19, 0.689);
+    
+}
+.pam p{
+font-size: 17px;
+margin-top: 10px;
+font-weight: 500;
+color:#100f0fca;
+
+ text-indent: 25px; 
+ line-height: 32px;
+}
+.pam .pam_pam6 p{
+padding-bottom: 20px;
+}
+.history p{
+    color:#100f0fca;
+    text-indent: 25px; 
+    line-height: 32px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.history p:last-child{
+    padding-bottom: 20px;
+}
+.history h1{
+    color: rgba(20, 19, 19, 0.689);
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: rgba(122, 203, 41, 0.927);
+    height: 100px;
+}
+footer .container{
+    padding: 40px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    
+  
+}
+footer ul a {
+    text-decoration: none;
+    color:#000;
+ 
+}
